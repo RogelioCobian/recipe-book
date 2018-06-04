@@ -3,6 +3,16 @@
     <shopping-edit></shopping-edit>
     <hr>
     <p>The List</p>
+    <!-- a with class list-group-item  -->
+    <!-- loop through ingredients -->
+    <!-- display name & amount -->
+
+    <!-- <div class="list" *ngFor="let ingredient of ingredients"> -->
+      <a href="#" class="list-group-item" *ngFor="let ingredient of ingredients">
+        {{ingredient.name}}
+        {{ingredient.amount}}
+      </a>
+    <!-- </div> -->
   </div>
 
 </div>
