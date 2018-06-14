@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  // tslint:disable-next-line:no-inferrable-types
+  loadedFeature: string = 'recipe';
+  navigate(feature: string) {
+    this.loadedFeature = feature;
+    console.log(feature);
+  }
 }

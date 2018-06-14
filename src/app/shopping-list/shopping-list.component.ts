@@ -3,6 +3,7 @@ import {Ingredient} from '../shared/ingredient.model';
 
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'shopping-list',
   templateUrl: './shopping-list.component.html',
   styleUrls: ['./shopping-list.component.css']
